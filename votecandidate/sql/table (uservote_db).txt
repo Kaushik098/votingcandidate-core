@@ -1,0 +1,7 @@
+CREATE TABLE uservote_db ( UserId INT AUTO_INCREMENT PRIMARY KEY, AdhaarCard_Name VARCHAR(200) NOT NULL, AdhaarCard_Number VARCHAR(12) NOT NULL, Date_of_birth VARCHAR(50) NOT NULL, 
+   UserName VARCHAR(100) NOT NULL, User_Password VARCHAR(30) NOT NULL, Retype_Password VARCHAR(30) NOT NULL, Mobile_Number BIGINT NOT NULL, Address VARCHAR(200) NOT NULL, 
+   Gender VARCHAR(10) NOT NULL, EntryFind INT);
+
+
+INSERT INTO uservote_db (AdhaarCard_Name, AdhaarCard_Number, Date_of_birth, UserName, User_Password, Retype_Password, Mobile_Number, Address, Gender, EntryFind) VALUES
+                        ( 'Sri', '11112222', '01/01/2000', 'Sri001', 'Sri001', 'Sri001', 9988776655, 'Esp Colony', 'Male', 0); 

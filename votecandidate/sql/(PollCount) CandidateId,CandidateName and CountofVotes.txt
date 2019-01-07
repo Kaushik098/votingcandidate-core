@@ -1,0 +1,11 @@
+CREATE TABLE PollCount (CandidateID INT PRIMARY KEY, CandidateName VARCHAR(100) NOT NULL, CandidatePollCount INT NOT NULL, CandidatePosition VARCHAR(100) NOT NULL);
+
+INSERT INTO PollCount (CandidateId, CandidateName, CandidatePollCount, CandidatePosition) VALUES (1800, 'Virat Kohli', 0, 'Cricketer');
+
+INSERT INTO PollCount (CandidateId, CandidateName, CandidatePollCount, CandidatePosition) VALUES (1802, 'MS Dhoni', 0, 'Cricketer');
+
+INSERT INTO PollCount (CandidateId, CandidateName, CandidatePollCount, CandidatePosition) VALUES (1804, 'Suresh Raina', 0, 'Cricketer');
+
+INSERT INTO PollCount (CandidateId, CandidateName, CandidatePollCount, CandidatePosition) VALUES (1806, 'Shikkar Dhawan', 0, 'Cricketer');
+
+INSERT INTO PollCount (CandidateId, CandidateName, CandidatePollCount, CandidatePosition) VALUES (1808, 'Sachinn Tendulkar', 0, 'Cricketer');
